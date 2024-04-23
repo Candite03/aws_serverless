@@ -13,13 +13,13 @@ variable "repository" {
 variable "app_name" {
   type        = string
   description = "AWS Amplify App Name"
-  default     = "my-amplify"
+  default     = "serverless-app"
 }
 
 variable "branch_name" {
   type        = string
   description = "AWS Amplify App Repo Branch Name"
-  default     = "master"
+  default     = "main"
 }
 
 
