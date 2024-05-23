@@ -12,3 +12,11 @@
 - create role in IAM console for bucket to assume.
 - select "Custom trust policy" trusted entity type.
 
+
+
+## Sources
+- https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect
+- https://github.com/hashicorp/setup-terraform
+- https://github.com/aws-actions/configure-aws-credentials
+- https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/
+
