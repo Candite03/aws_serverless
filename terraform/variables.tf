@@ -7,7 +7,7 @@ variable "token" {
 variable "repository" {
   type        = string
   description = "github repo url"
-  default     = "https://github.com/Candite03/wyldrides.git"
+  default     = "https://github.com/Candite03/aws_serverless.git"
 }
 
 variable "app_name" {
