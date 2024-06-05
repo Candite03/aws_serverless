@@ -53,4 +53,6 @@ jobs:
       
       - name: Terraform Apply
         id: apply
+        env:
+          AWS_AMPLIFY_TOKEN: ${{secrets.AWS_AMPLIFY_TOKEN}}
         run: terraform apply -auto-approve -input=false

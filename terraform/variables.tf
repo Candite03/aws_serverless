@@ -1,13 +1,12 @@
 variable "token" {
   type        = string
   description = "github token to connect github repo"
-  default     = "Your Gitub Token"
 }
 
 variable "repository" {
   type        = string
   description = "github repo url"
-  default     = "YOUR SOURCE-CODE REPO URL"
+  default     = "https://github.com/Candite03/wyldrides.git"
 }
 
 variable "app_name" {

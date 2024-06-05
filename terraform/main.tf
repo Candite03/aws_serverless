@@ -1,7 +1,7 @@
 resource "aws_amplify_app" "amplify_app" {
   name       = var.app_name
   repository = var.repository
-  oauth_token = var.token  
+  access_token = var.token  
 }
 resource "aws_amplify_branch" "amplify_branch" {
   app_id      = aws_amplify_app.amplify_app.id
